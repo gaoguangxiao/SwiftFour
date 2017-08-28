@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AA18FBC1F53B95D001B4B43 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FB71F53B95D001B4B43 /* Circle.swift */; };
+		9AA18FBD1F53B95D001B4B43 /* EquilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FB81F53B95D001B4B43 /* EquilateralTriangle.swift */; };
+		9AA18FBE1F53B95D001B4B43 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FB91F53B95D001B4B43 /* NamedShape.swift */; };
+		9AA18FBF1F53B95D001B4B43 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FBA1F53B95D001B4B43 /* Shape.swift */; };
+		9AA18FC01F53B95D001B4B43 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FBB1F53B95D001B4B43 /* Square.swift */; };
+		9AA18FD11F53C80C001B4B43 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FD01F53C80C001B4B43 /* ExampleProtocol.swift */; };
+		9AA18FD31F53C81F001B4B43 /* PrinterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FD21F53C81F001B4B43 /* PrinterError.swift */; };
+		9AA18FD51F53E6E7001B4B43 /* OptionalValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA18FD41F53E6E7001B4B43 /* OptionalValue.swift */; };
 		9AB5F1301F50266600A47C6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5F12F1F50266600A47C6E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +31,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9AA18FB71F53B95D001B4B43 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		9AA18FB81F53B95D001B4B43 /* EquilateralTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquilateralTriangle.swift; sourceTree = "<group>"; };
+		9AA18FB91F53B95D001B4B43 /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
+		9AA18FBA1F53B95D001B4B43 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		9AA18FBB1F53B95D001B4B43 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		9AA18FCA1F53C182001B4B43 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9AA18FCB1F53C182001B4B43 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		9AA18FCC1F53C182001B4B43 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		9AA18FCD1F53C182001B4B43 /* Suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		9AA18FD01F53C80C001B4B43 /* ExampleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
+		9AA18FD21F53C81F001B4B43 /* PrinterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterError.swift; sourceTree = "<group>"; };
+		9AA18FD41F53E6E7001B4B43 /* OptionalValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalValue.swift; sourceTree = "<group>"; };
 		9AB5F12C1F50266600A47C6E /* SwiftFour */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftFour; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB5F12F1F50266600A47C6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +58,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA18FB61F53B95D001B4B43 /* ClassSimple */ = {
+			isa = PBXGroup;
+			children = (
+				9AA18FB71F53B95D001B4B43 /* Circle.swift */,
+				9AA18FB81F53B95D001B4B43 /* EquilateralTriangle.swift */,
+				9AA18FB91F53B95D001B4B43 /* NamedShape.swift */,
+				9AA18FBA1F53B95D001B4B43 /* Shape.swift */,
+				9AA18FBB1F53B95D001B4B43 /* Square.swift */,
+			);
+			path = ClassSimple;
+			sourceTree = "<group>";
+		};
+		9AA18FC91F53C182001B4B43 /* StructAndEnum */ = {
+			isa = PBXGroup;
+			children = (
+				9AA18FD01F53C80C001B4B43 /* ExampleProtocol.swift */,
+				9AA18FCA1F53C182001B4B43 /* Card.swift */,
+				9AA18FCB1F53C182001B4B43 /* Rank.swift */,
+				9AA18FCC1F53C182001B4B43 /* ServerResponse.swift */,
+				9AA18FCD1F53C182001B4B43 /* Suit.swift */,
+			);
+			path = StructAndEnum;
+			sourceTree = "<group>";
+		};
 		9AB5F1231F50266600A47C6E = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +101,11 @@
 		9AB5F12E1F50266600A47C6E /* SwiftFour */ = {
 			isa = PBXGroup;
 			children = (
+				9AA18FC91F53C182001B4B43 /* StructAndEnum */,
+				9AA18FB61F53B95D001B4B43 /* ClassSimple */,
 				9AB5F12F1F50266600A47C6E /* main.swift */,
+				9AA18FD21F53C81F001B4B43 /* PrinterError.swift */,
+				9AA18FD41F53E6E7001B4B43 /* OptionalValue.swift */,
 			);
 			path = SwiftFour;
 			sourceTree = "<group>";
@@ -121,6 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA18FBE1F53B95D001B4B43 /* NamedShape.swift in Sources */,
+				9AA18FBC1F53B95D001B4B43 /* Circle.swift in Sources */,
+				9AA18FC01F53B95D001B4B43 /* Square.swift in Sources */,
+				9AA18FD31F53C81F001B4B43 /* PrinterError.swift in Sources */,
+				9AA18FBD1F53B95D001B4B43 /* EquilateralTriangle.swift in Sources */,
+				9AA18FBF1F53B95D001B4B43 /* Shape.swift in Sources */,
+				9AA18FD11F53C80C001B4B43 /* ExampleProtocol.swift in Sources */,
+				9AA18FD51F53E6E7001B4B43 /* OptionalValue.swift in Sources */,
 				9AB5F1301F50266600A47C6E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +311,7 @@
 				9AB5F1351F50266600A47C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
